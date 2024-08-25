@@ -13,7 +13,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 port = 65533
 
 # 存音乐的目录
-fileDir = '/Users/sparkle/Music/网易云音乐'  
+fileDir = '/music'
 
 # 实时转码需要依赖ffmpeg的路径 如果为空就不转码
 ffmpeg = 'ffmpeg'
